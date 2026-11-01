@@ -4,7 +4,7 @@
 
 ## Project Overview
 
-This project demonstrates the configuration of Windows Account Protection settings using Microsoft Intune on a Windows 11 virtual machine.
+Configuration and deployment of Windows Account Protection policies through Microsoft Intune on a Windows 11 virtual machine.
 
 ## Environment
 
@@ -20,19 +20,19 @@ This project demonstrates the configuration of Windows Account Protection settin
 
 ### Device Guard
 
-| Setting | Configuration |
+| Setting | Applied value |
 |---|---|
 | Credential Guard | Enabled with UEFI Lock |
 
 ### Windows Hello for Business
 
-| Setting | Configuration |
+| Setting | Applied value |
 |---|---|
 | Minimum PIN Length | 6 characters |
 
-## Deployment and Validation
+## Deployment Results
 
-The Intune assignment status report showed the following results:
+Intune assignment status:
 
 | Status | Devices |
 |---|---:|
@@ -42,7 +42,7 @@ The Intune assignment status report showed the following results:
 | Conflict | 0 |
 | Not applicable | 0 |
 
-The policy was successfully applied to the Windows 11 lab device.
+**Validation:** The policy was successfully applied to the Windows 11 lab device.
 
 ## Evidence
 

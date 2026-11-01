@@ -4,40 +4,35 @@
 
 ## Project Overview
 
-This project demonstrates application permission management for Android Enterprise personally owned Work Profile devices using Microsoft Intune.
-
-The policy configures permission behavior for Shopify within the managed work profile.
+Configuration and deployment of managed application permissions for Shopify on Android Enterprise personally owned Work Profile devices using Microsoft Intune.
 
 ## Lab Environment
 
 | Component | Configuration |
 |---|---|
 | Platform | Android Enterprise |
-| Enrollment type | Personally Owned Work Profile |
+| Enrollment | Personally Owned Work Profile |
 | Management | Microsoft Intune |
-| Targeted application | Shopify |
+| Target application | Shopify |
 | Policy type | Managed App Permissions |
 
-## Configuration
+## Permission Configuration
 
-The policy was created with the following configuration:
-
-| Setting | Configuration |
+| Setting | Applied Value |
 |---|---|
-| Targeted app | Shopify |
-| Permission | External storage (read) |
-| Permission state | Auto deny |
+| Application | Shopify |
+| External storage (read) | Auto deny |
 | Configuration settings | Not configured |
 | Connected apps | Not configured |
 | Credential Provider | Not configured |
 
-The external storage read permission was configured to be automatically denied.
+**Security configuration:** The external storage read permission was configured to be automatically denied for Shopify.
 
-## Deployment and Validation
+## Deployment Results
 
 The policy deployment was monitored through the Microsoft Intune Device Install Status report.
 
-Microsoft Intune reported a successful status (**Succeeded**).
+**Deployment Status: Succeeded**
 
 ## Evidence
 

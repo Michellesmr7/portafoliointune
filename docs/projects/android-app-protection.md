@@ -4,7 +4,7 @@
 
 ## Project Overview
 
-This project demonstrates the configuration and deployment of an Android App Protection Policy using Microsoft Intune to protect organizational data within supported mobile applications.
+Configuration and deployment of an Android App Protection Policy through Microsoft Intune to protect organizational data within supported mobile applications.
 
 ## Lab Environment
 
@@ -14,21 +14,23 @@ This project demonstrates the configuration and deployment of an Android App Pro
 | Management | Microsoft Intune |
 | Enrollment | Personally Owned Work Profile |
 | Policy type | App Protection Policy |
-| Applications | Shopify and Etsy |
+| Target applications | Shopify and Etsy |
 
-## Configuration
+## Policy Configuration
 
 An Android App Protection Policy was created in Microsoft Intune.
 
-The configured data protection settings are documented in the screenshots below.
+The configured data protection settings are documented in the configuration evidence below.
 
 ## Application Assignment
 
-The policy assignment was configured for the intended application users or groups.
+The policy was assigned to the intended application users or groups.
 
-## Deployment and Validation
+## Deployment Results
 
-Microsoft Intune reported a successful assignment status (**Succeeded**).
+**Assignment Status: Succeeded**
+
+Microsoft Intune reported a successful policy assignment.
 
 ## Evidence
 
@@ -40,7 +42,7 @@ Microsoft Intune reported a successful assignment status (**Succeeded**).
 
 ![Android App Protection settings part 2](../images/android-app-protection-settings2.jpeg)
 
-### Assignment Status
+### Application Assignment Status
 
 ![Android App Protection assignment status](../images/android-app-protection-status.jpeg)
 

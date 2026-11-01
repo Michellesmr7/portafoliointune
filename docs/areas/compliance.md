@@ -92,9 +92,3 @@ Validation should include:
 - Configuration profiles apply device settings.
 - Conditional Access can restrict access based on compliance.
 - Compliance status depends on policy evaluation and device reporting.
-
-## Key Takeaways
-
-- Compliance policies help assess endpoint security posture.
-- Intune provides centralized compliance reporting.
-- Conditional Access can use compliance as an access condition.

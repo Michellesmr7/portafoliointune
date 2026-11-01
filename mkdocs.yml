@@ -13,14 +13,13 @@ theme:
       primary: blue
       accent: cyan
   features:
-    - navigation.tabs
-    - navigation.sections
-    - navigation.top
-    - navigation.expand
-    - search.suggest
-    - search.highlight
-    - content.code.copy
-    - toc.follow
+  - navigation.tabs
+  - navigation.top
+  - search.suggest
+  - search.highlight
+  - content.code.copy
+  - toc.follow
+
   font:
     text: Roboto
     code: Roboto Mono
@@ -33,10 +32,11 @@ nav:
   - Security:
       - Compliance Policies: areas/compliance.md
       - Conditional Access Lab: projects/conditional-access-lab.md
-      - Endpoint Security: areas/endpoint-security.md
-      - Windows Security Baseline: projects/windows-security-baseline.md
-      - Windows Account Protection: projects/windows-account-protection.md
-      - Microsoft Defender Antivirus: projects/windows-defender-antivirus.md
+      - Endpoint Security:
+          - Overview: areas/endpoint-security.md
+          - Windows Security Baseline: projects/windows-security-baseline.md
+          - Windows Account Protection: projects/windows-account-protection.md
+          - Microsoft Defender Antivirus: projects/windows-defender-antivirus.md
   - Applications:
       - Overview: areas/app-management.md
       - Win32 Deployment: projects/win32-app-deployment.md

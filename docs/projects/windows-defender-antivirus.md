@@ -4,7 +4,7 @@
 
 ## Project Overview
 
-This project demonstrates the configuration and deployment of Microsoft Defender Antivirus settings using Microsoft Intune on a Windows 11 Enterprise virtual machine.
+Configuration and deployment of Microsoft Defender Antivirus policies through Microsoft Intune on a Windows 11 Enterprise virtual machine.
 
 ## Environment
 
@@ -17,11 +17,11 @@ This project demonstrates the configuration and deployment of Microsoft Defender
 | Policy type | Endpoint Security - Antivirus |
 | Assignment | Windows devices |
 
-## Configuration
+## Security Configuration
 
 The following Microsoft Defender Antivirus settings were configured:
 
-| Security Setting | Configuration |
+| Security Setting | Applied Value |
 |---|---|
 | Archive Scanning | Allowed |
 | Behavior Monitoring | Allowed |
@@ -33,15 +33,17 @@ The following Microsoft Defender Antivirus settings were configured:
 | Network Protection | Enabled |
 | Potentially Unwanted Applications (PUA) Protection | Enabled |
 
-## Deployment and Validation
+## Deployment Results
 
 The policy was assigned to the Windows devices group through Microsoft Intune.
 
-The device assignment report showed:
-
 **Deployment Status: Succeeded**
 
-The report showed one successful device assignment, with no pending or error states.
+| Status | Devices |
+|---|---:|
+| Successful | 1 |
+| Pending | 0 |
+| Error | 0 |
 
 ## Evidence
 

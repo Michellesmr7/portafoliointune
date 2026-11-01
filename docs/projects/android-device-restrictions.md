@@ -4,9 +4,7 @@
 
 ## Project Overview
 
-This project demonstrates the configuration and deployment of an Android Enterprise Device Restrictions policy using Microsoft Intune.
-
-The policy was created to require a password on a personally owned Android device enrolled with a Work Profile.
+Configuration and deployment of an Android Enterprise Device Restrictions policy through Microsoft Intune on a personally owned device enrolled with a Work Profile.
 
 ## Lab Environment
 
@@ -16,30 +14,27 @@ The policy was created to require a password on a personally owned Android devic
 | Enrollment | Personally Owned Work Profile |
 | Management | Microsoft Intune |
 | Policy type | Device Restrictions |
-| Configuration | Require password |
 
-## Configuration
+## Policy Configuration
 
-A Device Restrictions policy was created using the available configuration template.
-
-| Setting | Configuration |
+| Setting | Applied Value |
 |---|---|
 | Require password | Enabled |
 | Remaining settings | Default values |
 
-## Deployment and Validation
+## Deployment Results
 
 The policy was assigned to the intended device group.
 
-Microsoft Intune reported a successful assignment status (**Succeeded**).
+**Deployment Status: Succeeded**
 
 ## Evidence
 
-### Configuration Settings
+### Device Restrictions Configuration
 
 ![Android Device Restrictions configuration](../images/android-device-restrictions-settings.jpeg)
 
-### Assignment Status
+### Policy Assignment Status
 
 ![Android Device Restrictions assignment status](../images/android-device-restrictions-status.jpeg)
 
