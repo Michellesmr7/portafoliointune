@@ -412,17 +412,13 @@
     
       
       
-        
-      
     
     
     <li class="md-nav__item md-nav__item--nested">
       
         
         
-          
-        
-        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
         
           
           <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
@@ -529,17 +525,13 @@
     
       
       
-        
-      
     
     
     <li class="md-nav__item md-nav__item--nested">
       
         
         
-          
-        
-        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
         
           
           <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
@@ -633,6 +625,56 @@
   
   
   
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_3" id="__nav_3_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Endpoint Security
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Endpoint Security
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
     <li class="md-nav__item">
       <a href="../../areas/endpoint-security/" class="md-nav__link">
         
@@ -641,7 +683,7 @@
   <span class="md-ellipsis">
     
   
-    Endpoint Security
+    Overview
   
 
     
@@ -745,6 +787,14 @@
     </li>
   
 
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
     
       
       
@@ -757,8 +807,6 @@
     
     
       
-      
-        
       
     
     
@@ -766,9 +814,7 @@
       
         
         
-          
-        
-        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
         
           
           <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
@@ -875,17 +921,13 @@
     
       
       
-        
-      
     
     
     <li class="md-nav__item md-nav__item--nested">
       
         
         
-          
-        
-        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
         
           
           <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
@@ -1052,8 +1094,6 @@
         
         
       
-      
-        
       
     
     
@@ -1294,10 +1334,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#configuration" class="md-nav__link">
+  <a href="#permission-configuration" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Configuration
+        Permission Configuration
       
     </span>
   </a>
@@ -1305,10 +1345,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#deployment-and-validation" class="md-nav__link">
+  <a href="#deployment-results" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Deployment and Validation
+        Deployment Results
       
     </span>
   </a>
@@ -1419,10 +1459,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#configuration" class="md-nav__link">
+  <a href="#permission-configuration" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Configuration
+        Permission Configuration
       
     </span>
   </a>
@@ -1430,10 +1470,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#deployment-and-validation" class="md-nav__link">
+  <a href="#deployment-results" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Deployment and Validation
+        Deployment Results
       
     </span>
   </a>
@@ -1502,8 +1542,7 @@
 <h1 id="android-enterprise-managed-app-permissions">Android Enterprise – Managed App Permissions</h1>
 <p><badge color="success">Implemented and validated</badge></p>
 <h2 id="project-overview">Project Overview</h2>
-<p>This project demonstrates application permission management for Android Enterprise personally owned Work Profile devices using Microsoft Intune.</p>
-<p>The policy configures permission behavior for Shopify within the managed work profile.</p>
+<p>Configuration and deployment of managed application permissions for Shopify on Android Enterprise personally owned Work Profile devices using Microsoft Intune.</p>
 <h2 id="lab-environment">Lab Environment</h2>
 <table>
 <thead>
@@ -1518,7 +1557,7 @@
 <td>Android Enterprise</td>
 </tr>
 <tr>
-<td>Enrollment type</td>
+<td>Enrollment</td>
 <td>Personally Owned Work Profile</td>
 </tr>
 <tr>
@@ -1526,7 +1565,7 @@
 <td>Microsoft Intune</td>
 </tr>
 <tr>
-<td>Targeted application</td>
+<td>Target application</td>
 <td>Shopify</td>
 </tr>
 <tr>
@@ -1535,26 +1574,21 @@
 </tr>
 </tbody>
 </table>
-<h2 id="configuration">Configuration</h2>
-<p>The policy was created with the following configuration:</p>
+<h2 id="permission-configuration">Permission Configuration</h2>
 <table>
 <thead>
 <tr>
 <th>Setting</th>
-<th>Configuration</th>
+<th>Applied Value</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>Targeted app</td>
+<td>Application</td>
 <td>Shopify</td>
 </tr>
 <tr>
-<td>Permission</td>
 <td>External storage (read)</td>
-</tr>
-<tr>
-<td>Permission state</td>
 <td>Auto deny</td>
 </tr>
 <tr>
@@ -1571,10 +1605,10 @@
 </tr>
 </tbody>
 </table>
-<p>The external storage read permission was configured to be automatically denied.</p>
-<h2 id="deployment-and-validation">Deployment and Validation</h2>
+<p><strong>Security configuration:</strong> The external storage read permission was configured to be automatically denied for Shopify.</p>
+<h2 id="deployment-results">Deployment Results</h2>
 <p>The policy deployment was monitored through the Microsoft Intune Device Install Status report.</p>
-<p>Microsoft Intune reported a successful status (<strong>Succeeded</strong>).</p>
+<p><strong>Deployment Status: Succeeded</strong></p>
 <h2 id="evidence">Evidence</h2>
 <h3 id="managed-app-permissions-configuration">Managed App Permissions Configuration</h3>
 <p><img alt="Android managed app permissions configuration" src="../../images/android-managed-devices-wp-apps.jpeg" /></p>
@@ -1636,7 +1670,7 @@
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.tabs", "navigation.sections", "navigation.top", "navigation.expand", "search.suggest", "search.highlight", "content.code.copy", "toc.follow"], "search": "../../assets/javascripts/workers/search.a7633da7.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.tabs", "navigation.top", "search.suggest", "search.highlight", "content.code.copy", "toc.follow"], "search": "../../assets/javascripts/workers/search.a7633da7.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
       <script src="../../assets/javascripts/bundle.c21346df.min.js"></script>
