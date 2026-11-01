@@ -1,0 +1,26 @@
+# MkDocs generated output
+/site/
+
+# Python environments
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Temporary and system files
+.DS_Store
+Thumbs.db
+*.log
+
+# Private or unused files
+/ReporteIntune.html
+/screenshots/
+
+# Local workspace settings
+
+# Local development files
+PortafolioIntune.code-workspace
+/tools/
+
+# Application installers and deployment packages
+/apps/

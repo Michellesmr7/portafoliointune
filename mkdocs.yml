@@ -1,0 +1,71 @@
+
+site_name: Modern Workplace Lab
+site_description: Microsoft Intune & Endpoint Management Portfolio
+site_author: IT Portfolio
+
+theme:
+  name: material
+  language: en
+  palette:
+  - scheme: default
+    primary: blue
+    accent: cyan
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - navigation.expand
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - toc.follow
+
+  font:
+    text: Roboto
+    code: Roboto Mono
+
+
+nav:
+  - Home: index.md
+
+  - Device Management:
+      - Overview: areas/device-management.md
+      - Windows Enrollment: projects/device-enrollment.md
+ 
+  - Security:
+      - Compliance Policies: areas/compliance.md
+      - Conditional Access Lab: projects/conditional-access-lab.md
+      - Endpoint Security: areas/endpoint-security.md
+      - Windows Security Baseline: projects/windows-security-baseline.md
+      - Windows Account Protection: projects/windows-account-protection.md
+      - Microsoft Defender Antivirus: projects/windows-defender-antivirus.md
+  
+
+  - Applications:
+      - Overview: areas/app-management.md
+      - Win32 Deployment: projects/win32-app-deployment.md
+
+  - Configuration:
+      - Configuration Profiles: areas/configuration-profiles.md
+      - Automation & Updates: areas/automation-updates.md
+      - Windows Update Rings: projects/windows-update-ring.md
+      - Windows Quality Updates: projects/windows-quality-update.md
+ 
+  - Mobile:
+      - Android Enterprise: areas/android-enterprise.md
+      - Android Enrollment Lab: projects/android-enterprise-enrollment.md
+      - Android Device Restrictions: projects/android-device-restrictions.md
+      - Android App Protection: projects/android-app-protection.md
+      - Android Managed App Permissions: projects/android-managed-app-permissions.md
+      
+
+    
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - pymdownx.superfences
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+extra_css:
+  - stylesheets/extra.css

@@ -1,0 +1,49 @@
+
+/* Modern Workplace Lab - Portfolio styling */
+
+.md-typeset .grid.cards > ul > li {
+    border: 1px solid #d9e5f5;
+    border-radius: 12px;
+    background: linear-gradient(145deg, #ffffff, #f1f6ff);
+    box-shadow: 0 3px 12px rgba(30, 70, 120, 0.07);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.md-typeset .grid.cards > ul > li:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba(30, 70, 120, 0.13);
+    border-color: #64b5f6;
+}
+
+.md-typeset .grid.cards > ul > li > hr {
+    border-color: #dce8f7;
+}
+
+.md-header {
+    background-color: #17365d;
+}
+
+.md-tabs {
+    background-color: #214b78;
+}
+
+/* Portfolio hero section */
+
+.portfolio-hero {
+    padding: 32px;
+    margin: 20px 0 30px;
+    border-radius: 16px;
+    background: linear-gradient(120deg, #17365d, #176b91);
+    color: white;
+    box-shadow: 0 8px 24px rgba(23, 54, 93, 0.18);
+}
+
+.portfolio-hero h2 {
+    color: white;
+    font-size: 1.8rem;
+    margin-top: 0;
+}
+
+.portfolio-hero p {
+    color: #eaf5ff;
+}
