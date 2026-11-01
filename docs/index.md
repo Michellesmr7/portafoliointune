@@ -1,5 +1,3 @@
-
-
 # MODERN WORKPLACE LAB
 
 <div class="portfolio-hero" markdown>
@@ -8,12 +6,13 @@
 
 Hands-on technical portfolio showcasing endpoint management, application deployment, device security and modern workplace technologies.
 
-**Microsoft Intune · Microsoft Entra ID · Windows 11**
+**Microsoft Intune · Microsoft Entra ID · Windows 11 · Android Enterprise**
 
 </div>
 
+A practical portfolio documenting configuration, deployment and validation activities in a Microsoft Intune lab environment.
 
-Hands-on technical portfolio focused on modern device management, application deployment and endpoint security.
+## FEATURED PROJECTS
 
 <div class="grid cards" markdown>
 
@@ -21,9 +20,25 @@ Hands-on technical portfolio focused on modern device management, application de
 
     ---
 
-    Windows 11 enrollment, device configuration and compliance.
+    Windows 11 enrollment, device configuration and enrollment validation.
 
-    [:octicons-arrow-right-24: Explore project](projects/device-enrollment.md)
+    [Explore project](projects/device-enrollment.md)
+
+-   :material-shield-check: **Endpoint Security**
+
+    ---
+
+    Windows Security Baseline, Account Protection and Microsoft Defender Antivirus.
+
+    [Explore projects](areas/endpoint-security.md)
+
+-   :material-android: **Android Enterprise**
+
+    ---
+
+    Work Profile enrollment, device restrictions, app protection and managed app permissions.
+
+    [Explore projects](areas/android-enterprise.md)
 
 -   :material-package-variant: **Win32 Application Deployment**
 
@@ -31,40 +46,41 @@ Hands-on technical portfolio focused on modern device management, application de
 
     7-Zip packaging, application assignment and installation validation.
 
-    [:octicons-arrow-right-24: Explore project](projects/win32-app-deployment.md)
+    [Explore project](projects/win32-app-deployment.md)
 
--   :material-shield-check: **Endpoint Security**
-
-    ---
-
-    Security policies, Microsoft Defender and device protection.
-
-    **Planned**
-
--   :material-android: **Android Device Management**
+-   :material-update: **Windows Update Management**
 
     ---
 
-    Android Enterprise and mobile device management.
+    Update Rings, Quality Update policies and release approval management.
 
-    **Planned**
+    [Explore projects](areas/automation-updates.md)
+
+-   :material-lock-check: **Conditional Access**
+
+    ---
+
+    Report-only policy configuration and evaluation of device compliance requirements.
+
+    [Explore project](projects/conditional-access-lab.md)
 
 </div>
 
 ## LAB OVERVIEW
 
-| Area | Status |
+| Technical Area | Documented Work |
 |---|---|
-| Windows 11 Enrollment | Completed |
-| Device Compliance | Completed |
-| Win32 Application Deployment | Completed |
-| Android Enterprise | Planned |
-| Endpoint Security | Planned |
+| Windows Enrollment | Implemented and validated |
+| Windows Endpoint Security | Configured and validated |
+| Win32 Application Deployment | Implemented and validated |
+| Windows Update Management | Configured and validated |
+| Android Enterprise | Implemented and validated |
+| Conditional Access | Initial Report-only configuration |
 
 ## ABOUT THIS LAB
 
 This portfolio documents practical exercises performed in a Microsoft Intune laboratory environment.
 
-Each project includes its objectives, configuration, implementation steps, validation evidence and technical findings.
+Each project includes its objectives, configuration, implementation details, validation results and technical evidence.
 
-**Focus areas:** Microsoft Intune · Microsoft Entra ID · Windows 11 · Endpoint Management · Application Deployment
+**Focus areas:** Microsoft Intune · Microsoft Entra ID · Windows 11 · Android Enterprise · Endpoint Security · Application Deployment
